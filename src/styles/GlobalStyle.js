@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
         background-color: #182A3C;
       }
 
-      button {
+      button, svg {
         cursor: pointer;
       }
 
@@ -26,6 +26,10 @@ export const GlobalStyle = createGlobalStyle`
       }
 
       a {
+        text-decoration: none;
+      }
+
+      abbr {
         text-decoration: none;
       }
     `}
